@@ -1,5 +1,5 @@
 # [step 1]>> 例如： API_KEY = "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" （此key无效）
-API_KEY = "sk-此处填API密钥"
+API_KEY = "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"
 
 # [step 2]>> 改为True应用代理，如果直接在海外服务器部署，此处不修改
 USE_PROXY = False
@@ -39,7 +39,7 @@ LAYOUT = "LEFT-RIGHT"  # "LEFT-RIGHT"（左右布局） # "TOP-DOWN"（上下布
 TIMEOUT_SECONDS = 30
 
 # 网页的端口, -1代表随机端口
-WEB_PORT = -1
+WEB_PORT = 80
 
 # 如果OpenAI不响应（网络卡顿、代理失败、KEY失效），重试的次数限制
 MAX_RETRY = 2
@@ -55,4 +55,4 @@ CONCURRENT_COUNT = 100
 
 # 设置用户名和密码（相关功能不稳定，与gradio版本和网络都相关，如果本地使用不建议加这个）
 # [("username", "password"), ("username2", "password2"), ...]
-AUTHENTICATION = []
+AUTHENTICATION = [("Dliangliang", "Fuck@Fuck")]
